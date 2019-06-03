@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity implements TiltScrollControl
 
         mScrollView = findViewById(R.id.scrollView);
 
-        final SensorManager sensorManager = (SensorManager) this.getSystemService(SENSOR_SERVICE);
-        mTiltScrollController = new TiltScrollController(sensorManager, this);
+
+        mTiltScrollController = new TiltScrollController(this,this);
     }
 
     @Override

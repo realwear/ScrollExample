@@ -23,7 +23,7 @@
             android:layout_height="1500dp"
             android:minHeight="1500dp"
             android:minWidth="1500dp"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@drawable/rwlogo" />
     </ScrollView>
 
 
