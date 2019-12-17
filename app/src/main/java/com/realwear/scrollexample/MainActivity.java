@@ -7,7 +7,6 @@
 
 package com.realwear.scrollexample;
 
-import android.hardware.SensorManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ScrollView;
@@ -27,8 +26,7 @@ public class MainActivity extends AppCompatActivity implements TiltScrollControl
 
         mScrollView = findViewById(R.id.scrollView);
 
-
-        mTiltScrollController = new TiltScrollController(this,this);
+        mTiltScrollController = new TiltScrollController(getApplicationContext(), this);
     }
 
     @Override
